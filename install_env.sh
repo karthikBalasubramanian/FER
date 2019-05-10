@@ -9,14 +9,13 @@ conda update conda
 conda install jupyter
 conda install scipy
 conda install scikit-learn
-conda install scikit
-conda install sklearn
-conda install scikit-learn
 conda install keras
 conda install pandas
 conda install opencv
+# sudo apt-get install cmake
 brew install cmake
 brew install boost
+# https://askubuntu.com/questions/944035/installing-libboost-python-dev-for-python3-without-installing-python2-7
 brew install boost-python3
 ln -s /usr/local/lib/libboost_python36.a /usr/local/lib/libboost_python3.a 
 ln -s /usr/local/lib/libboost_python36.dylib /usr/local/lib/libboost_python3.dylib 
