@@ -21,3 +21,6 @@ ln -s /usr/local/lib/libboost_python36.a /usr/local/lib/libboost_python3.a
 ln -s /usr/local/lib/libboost_python36.dylib /usr/local/lib/libboost_python3.dylib 
 pip install opencv-contrib-python
 pip install dlib
+conda install matplotlib
+conda install tqdm
+conda install pillow
